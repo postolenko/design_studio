@@ -690,7 +690,7 @@ textarea:focus {
     font-size: 36px;
     line-height: 41px;
     color: #fff;
-    -webkit-transition-property: text-shadow;
+/*    -webkit-transition-property: text-shadow;
     -webkit-transition-duration: .3s;
     -webkit-transition-timing-function: ease;
 
@@ -710,24 +710,24 @@ textarea:focus {
     transition-duration: .3s;
     transition-timing-function: ease;
     text-shadow: 0 4px 15px rgba(255, 255, 255, 0);
-    -webkit-text-shadow: 0 4px 15px rgba(255, 255, 255, 0);
+    -webkit-text-shadow: 0 4px 15px rgba(255, 255, 255, 0);*/
 }
 
 .tel_link:link,
 .tel_link:visited {
-    text-shadow: 0 4px 15px rgba(255, 255, 255, 0);
-    -webkit-text-shadow: 0 4px 15px rgba(255, 255, 255, 0);
+/*    text-shadow: 0 4px 15px rgba(255, 255, 255, 0);
+    -webkit-text-shadow: 0 4px 15px rgba(255, 255, 255, 0);*/
 }
 
 .tel_link:active,
 .tel_link.active {
-    text-shadow: 0 4px 15px rgba(255, 255, 255, 1);
-    -webkit-text-shadow: 0 4px 15px rgba(255, 255, 255, 1);
+/*    text-shadow: 0 4px 15px rgba(255, 255, 255, 1);
+    -webkit-text-shadow: 0 4px 15px rgba(255, 255, 255, 1);*/
 }
 
 .tel_link:hover {
-    text-shadow: 0 4px 15px rgba(255, 255, 255, 1);
-    -webkit-text-shadow: 0 4px 15px rgba(255, 255, 255, 1);
+/*    text-shadow: 0 4px 15px rgba(255, 255, 255, 1);
+    -webkit-text-shadow: 0 4px 15px rgba(255, 255, 255, 1);*/
 }
 
 .tel_link span {
