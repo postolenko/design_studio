@@ -190,7 +190,7 @@ section {
 
 h1 {
     font-family: TT Norms;
-    font-weight: norma
+    font-weight: normal;
     font-size: 60px;
     line-height: 71px;
     color: #444444;
@@ -478,16 +478,21 @@ textarea:focus {
 /* ----- HEADER ------ */
 /*-------------------------------------------*/
 
-.header_site {
-    display: flex;
-    display: -webkit-flex;
-    padding: 24px 60px;
+.header_row {
     width: 100%;
     background: transparent;
     position: absolute;
     top: 0;
     left: 0;
     z-index: 3;
+}
+
+.header_site {
+    display: flex;
+    display: -webkit-flex;
+    max-width: 1780px;
+    margin: 0 auto;
+    padding: 24px 0;
 }
 
 .header_site .left {
@@ -850,6 +855,78 @@ textarea:focus {
 
 /* ----- / Responsive Menu Button ------ */
 
+.inner_header {
+    position: relative;
+    background-color: #fff;
+}
+
+.inner_header .logo p {
+    color: #151515;
+}
+
+.inner_header .logo:link p,
+.inner_header .logo:visited p {
+    text-shadow: 0 2px 10px rgba(68, 68, 68, 0);
+    -webkit-text-shadow: 0 2px 10px rgba(68, 68, 68, 0);
+}
+
+.inner_header .logo:active p,
+.inner_header .logo.active p {
+    text-shadow: 0 2px 10px rgba(68, 68, 68, .3);
+    -webkit-text-shadow: 0 2px 10px rgba(68, 68, 68, .3);
+}
+
+.inner_header .logo:hover p {
+    text-shadow: 0 2px 10px rgba(68, 68, 68, .3);
+    -webkit-text-shadow: 0 2px 10px rgba(68, 68, 68, .3);
+}
+
+.inner_header .contact_list li a {
+    color: #151515;
+}
+
+.inner_header .contact_list li a:active,
+.inner_header .contact_list li a.active {
+    border-bottom: 1px solid #151515;
+}
+
+.inner_header .contact_list li a:hover {
+    border-bottom: 1px solid #151515;
+}
+
+.inner_header .link_1 {
+    color: #151515;
+}
+
+.inner_header .link_1:before {
+    background: #151515;
+}
+
+.inner_header .tel_link {
+    color: #151515;
+}
+
+.inner_header .tel_link:link,
+.inner_header .tel_link:visited {
+    text-shadow: 0 4px 15px rgba(68, 68, 68, 0);
+    -webkit-text-shadow: 0 4px 15px rgba(68, 68, 68, 0);
+}
+
+.inner_header .tel_link:active,
+.inner_header .tel_link.active {
+    text-shadow: 0 4px 15px rgba(68, 68, 68, .3);
+    -webkit-text-shadow: 0 4px 15px rgba(68, 68, 68, .3);
+}
+
+.inner_header .tel_link:hover {
+    text-shadow: 0 4px 15px rgba(68, 68, 68, .3);
+    -webkit-text-shadow: 0 4px 15px rgba(68, 68, 68, .3);
+}
+
+.inner_header .tel_link:hover span {
+    color: #151515;
+}
+
 /*-------------------------------------------*/
 /* ----- CONTENT ------ */
 /*-------------------------------------------*/
@@ -918,7 +995,7 @@ textarea:focus {
     display: -webkit-flex;
     flex-direction: column;
     -webkit-flex-direction: column;
-    max-width: 1480px;
+    max-width: 1500px;
     min-height: 100vh;
     margin: 0 auto;
 }
@@ -931,7 +1008,7 @@ textarea:focus {
 .main_nav_wrapp {
     flex: 1;
     height: 100%;
-    margin-top: 221px;
+    margin: 221px 69px 0 0;
     text-align: right;
 }
 
@@ -1020,7 +1097,9 @@ textarea:focus {
 
 .categorie_thumb {
     width: 50%;
-    height: 960px;
+    /*height: 960px;*/
+    height: 100%;
+    height: 100vh;
     position: relative;
     overflow: hidden;
 }
@@ -1033,7 +1112,6 @@ textarea:focus {
     position: absolute;
     top: 0;
     left: 0;
-    /*background: #444444;*/
     background-color: #000;
     opacity: .5;
     z-index: 2;
@@ -1120,10 +1198,17 @@ textarea:focus {
     display: none;
 }
 
+.person_thumb {
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+}
+
 .person {
     width: 410px;
     margin: 0 auto;
-    padding: 66px 0 20px 0;
+    /*padding: 66px 0 20px 0;*/
 }
 
 .person .photo_box {
@@ -1141,10 +1226,6 @@ textarea:focus {
     left: 50%;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
-}
-
-.person_title {
-
 }
 
 .person_title h3 {
@@ -1417,6 +1498,11 @@ textarea:focus {
     border-bottom: 1px solid #444;
 }
 
+.show_link_wrapp {
+    
+}
+
+
 /*-- /Section 5 - Main Page --*/
 
 /*-------------------------------------------*/
@@ -1475,25 +1561,25 @@ footer {
     transition-property: text-shadow;
     transition-duration: .3s;
     transition-timing-function: ease;
-    text-shadow: 0 1px 4px rgba(68, 68, 68, 0);
-    -webkit-text-shadow: 0 1px 4px rgba(68, 68, 68, 0);
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0);
+    -webkit-text-shadow: 0 1px 4px rgba(0, 0, 0, 0);
 }
 
 .links_box a:link,
 .links_box a:visited {
-    text-shadow: 0 1px 4px rgba(68, 68, 68, 0);
-    -webkit-text-shadow: 0 1px 4px rgba(68, 68, 68, 0);
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0);
+    -webkit-text-shadow: 0 1px 4px rgba(0, 0, 0, 0);
 }
 
 .links_box a:active,
 .links_box a.active {
-    text-shadow: 0 1px 4px rgba(68, 68, 68, .4);
-    -webkit-text-shadow: 0 1px 4px rgba(68, 68, 68, .4);
+    text-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+    -webkit-text-shadow: 0 1px 4px rgba(0, 0, 0, .6);
 }
 
 .links_box a:hover {
-    text-shadow: 0 1px 4px rgba(68, 68, 68, .4);
-    -webkit-text-shadow: 0 1px 4px rgba(68, 68, 68, .4);
+    text-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+    -webkit-text-shadow: 0 1px 4px rgba(0, 0, 0, .6);
 }
 
 .soc_list {
