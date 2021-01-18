@@ -1180,7 +1180,8 @@ textarea:focus {
 /*-- Section 3 - Main Page --*/
 
 .sect_3 {
-    padding: 51px 0 20px 0;
+    /*padding: 51px 0 20px 0;*/
+    padding: 51px 0 72px 0;
 }
 
 .row_2 {
@@ -1270,24 +1271,39 @@ textarea:focus {
 
 /*-- Section 4 - Main Page --*/
 
-.paralax_box {
-    min-height: 640px;
-    margin: 54px 0 14px 0;
-    background: transparent;
-    position: relative;
+.parallax {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
 }
 
-.paralax_box p {
+.parallax .caption {
     padding: 95px 60px;
+}
+
+.parallax .caption p {
     font-weight: 500;
     font-size: 18px;
     line-height: 21px;
     color: #FFFFFF;
 }
 
+@media only screen and (max-device-width: 1024px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+
 /*-- /Section 4 - Main Page --*/
 
 /*-- Section 5 - Main Page --*/
+
+.sect_5 {
+    padding-top: 43px;
+}
 
 .two_cols_2 {
     display: flex;
