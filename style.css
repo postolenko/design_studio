@@ -1431,11 +1431,11 @@ textarea:focus {
 }
 
 .two_cols_item > div:nth-child(1) {
-    width: 70%;
+    width: 60%;
 }
 
 .two_cols_item > div:nth-child(2) {
-    width: 30%;
+    width: 40%;
 }
 
 .two_cols_item h3 {
@@ -1499,9 +1499,47 @@ textarea:focus {
 }
 
 .show_link_wrapp {
-    
+    padding-right: 0;
+    position: relative;
+    top: 4px;
+    -webkit-transition-property: padding-right;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: padding-right;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: padding-right;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: padding-right;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: padding-right;
+    transition-duration: .3s;
+    transition-timing-function: ease;
 }
 
+.show_link_wrapp .show_link {
+    display: inline-block;
+    vertical-align: top;
+    background-color: #fff;
+    position: relative;
+    z-index: 2;
+}
+
+.show_link_wrapp .add_link {
+    position: absolute;
+    bottom: 5px;
+    right: 0;
+}
+
+.show_link_wrapp:hover {
+    padding-right: 150px;
+}
 
 /*-- /Section 5 - Main Page --*/
 
