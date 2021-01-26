@@ -1,10 +1,4 @@
-// Check if the element is in the viewport.
-// http://www.hnldesign.nl/work/code/check-if-element-is-visible/
 function isInViewport(node) {
-  // Am I visible? Height and Width are not explicitly necessary in visibility
-  // detection, the bottom, right, top and left are the essential checks. If an
-  // image is 0x0, it is technically not visible, so it should not be marked as
-  // such. That is why either width or height have to be > 0.
   var rect = node.getBoundingClientRect()
   return (
     (rect.height > 0 || rect.width > 0) &&
@@ -23,6 +17,16 @@ function getAnimation() {
   });
 }
 
+function getHeaderParams() {
+    if($(document).scrollTop() > 10 && bodyWidth <= 900) {
+        $(".header_fix").addClass("bg");
+        $(".respmenubtn").addClass("dark");
+    } else {
+        $(".header_fix").removeClass("bg");
+        $(".respmenubtn").removeClass("dark");
+    }
+}
+
 var w = window,
 d = document,
 e = d.documentElement,
@@ -37,20 +41,23 @@ $(window).load(function() {
 });
 
 $(window).resize(function() {
-
+  bodyWidth = w.innerWidth || e.clientWidth || g.clientWidth;
   getAnimation();
+  getHeaderParams();
 
 });
 
 $(document).scroll(function() {
 
   getAnimation();
+  getHeaderParams();
 
 });
 
 $(document).ready(function() {
-
+  bodyWidth = w.innerWidth || e.clientWidth || g.clientWidth;
   getAnimation();
+  getHeaderParams();
 
     if( $(".object_slider").length > 0 ) {
         $(".object_slider").not(".slick-initialized").slick({
@@ -125,6 +132,28 @@ $(document).ready(function() {
         $(this).css('background-position','center ' + parseInt(-(ratio * 1.5)) + 'px')
       }
     })
-  })
+  });
+
+  // ------------
+
+  $(".respmenubtn").click(function(e) {
+      e.preventDefault();
+      if( $("#resp_nav").is(":hidden") ) {
+          $("#resp_nav").fadeIn(300);
+          $(this).addClass("active");
+      } else {
+          $("#resp_nav").fadeOut(300);
+          $(this).removeClass("active");
+      }
+  });
+  
+  $(this).keydown(function(eventObject){
+      if (eventObject.which == 27 &&
+          $("#resp_nav").is(":visible") &&
+          bodyWidth <= 900) {
+              $("#resp_nav").fadeOut(300);
+              $(".respmenubtn").removeClass("active");
+      }
+  });
 
 });

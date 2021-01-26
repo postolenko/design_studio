@@ -18,7 +18,7 @@
 
 	<!-- Header -->
 		
-	<header>
+	<header class="header_fix">
 		<div class="header_row">
 			<div class="header_site">
 				<div class="left">
@@ -35,9 +35,9 @@
 					</ul>
 				</div>
 				<div class="right">
-					<div class="overflow_wrapp">
+					<div class="overflow_wrapp novisible_480">
 						<div class="inlines animate fadeIn">
-							<div>
+							<div class="link_1_wrapp">
 								<a class="link_1" href="mailto:kdesign@mail.ru">kdesign@mail.ru</a>
 							</div>
 							<div>
@@ -45,17 +45,33 @@
 							</div>
 						</div>
 					</div>
+					<a href="tel:+79104342424" class="resp_callback"></a>
 				</div>
 			</div>
-			<button class="respmenubtn">
-				<span></span>
-				<span></span>
-				<span></span>
-			</button>
-		</div>						
+		</div>
 	</header>
 
 	<!-- /Header -->
+
+	<div id="resp_nav">
+		<ul class="main_nav">
+			<li><a href="#">Квартиры<span class="count">14</span></a></li>
+			<li><a href="#">Дома<span class="count">11</span></a></li>
+			<li><a href="#">Офисы<span class="count">14</span></a></li>
+		</ul>
+		<ul class="contact_list resp animate fadeIn">
+			<li><a href="#">Контакты</a></li>
+		</ul>
+		<div class="link_1_wrapp resp">
+			<a class="link_1" href="mailto:kdesign@mail.ru">kdesign@mail.ru</a>
+		</div>
+	</div>
+
+	<button class="respmenubtn white">
+		<span></span>
+		<span></span>
+		<span></span>
+	</button>
 
 	<!-- Content -->
 		<div class="content">
@@ -64,7 +80,7 @@
 
 		<section class="promo_box">
 			<div class="row_1 inner">
-				<div class="main_nav_wrapp animate leftSlice" id="resp_nav">
+				<div class="main_nav_wrapp animate leftSlice">
 					<ul class="main_nav">
 						<li><a href="#">Квартиры<span class="count">14</span></a></li>
 						<li><a href="#">Дома<span class="count">11</span></a></li>
@@ -106,8 +122,8 @@
 				</a>
 				<div class="categorie_thumb person_thumb animate fadeIn">
 					<div class="person">
-						<div class="photo_box">
-							<img src="img/person.jpg" alt="" />
+						<div class="photo_box" style="background-image: url(img/person.jpg)">
+							<!-- <img src="img/person.jpg" alt="" /> -->
 						</div>
 						<div class="person_title">
 							<h3>Имя Фамилия - руководитель студии</h3>
@@ -243,7 +259,8 @@
 
 		<section>
 			<div class="animate fadeIn">
-				  <div class="parallax" data-image-src="img/paralax.jpg" data-height="640px">
+				  <!-- <div class="parallax" data-image-src="img/paralax.jpg" data-height="640px"> -->
+				  <div class="parallax" data-image-src="img/paralax.jpg">
 				    <div class="caption">
 				      <p>Алёна, Кристина и Денис</p>
 				    </div>

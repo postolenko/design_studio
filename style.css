@@ -93,6 +93,7 @@ body {
     -ms-flex-direction: column;
     min-height: 100%;
     min-height: 100vh;
+    overflow: hidden;
 }
 
 header {
@@ -491,67 +492,11 @@ textarea:focus {
 
 /*-- /Slick --*/
 
-/*-- Breadcrumbs --*/
-
-/*.breadcrumbs_wrapp {
-    padding: 40px 0 20px 0;
-}
-
-.breadcrumbs li {
-    display: inline-block;
-    vertical-align: top;
-    padding: 0 5px;
-}
-
-.breadcrumbs li:after {
-    position: relative;
-    top: -2px;
-    left: 5px;
-    content: "\2192";
-    font-size: 13px;
-    line-height: 23px;
-    color: #333333;
-}
-
-.breadcrumbs li:last-child:after {
-    display: none;
-}
-
-.breadcrumbs li a {
-    border-bottom: 1px solid transparent;
-    font-size: 18px;
-    line-height: 23px;
-    color: #333333;
-}
-
-.breadcrumbs li a:link,
-.breadcrumbs li a:visited {
-    border-bottom: 1px solid transparent;
-}
-
-.breadcrumbs li a:active,
-.breadcrumbs li a.active {
-    border-bottom: 1px solid #333333;
-}
-
-.breadcrumbs li a:hover {
-    border-bottom: 1px solid #333333;
-}
-
-.breadcrumbs li:last-child a {
-    pointer-events: none;
-    cursor: default;
-    opacity: .6;
-    border-bottom: 1px solid transparent;
-}*/
-
-/*-- /Breadcrumbs --*/
-
 /*-------------------------------------------*/
 /* ----- HEADER ------ */
 /*-------------------------------------------*/
 
-.header_row {
+.header_fix {
     width: 100%;
     background: transparent;
     position: absolute;
@@ -563,9 +508,9 @@ textarea:focus {
 .header_site {
     display: flex;
     display: -webkit-flex;
-    max-width: 1780px;
+    max-width: 1920px;
     margin: 0 auto;
-    padding: 24px 0;
+    padding: 24px 60px;
 }
 
 .header_site .left {
@@ -643,6 +588,10 @@ textarea:focus {
 .contact_list {
     display: flex;
     display: -webkit-flex;
+}
+
+.contact_list.resp {
+    display: none;
 }
 
 .contact_list li {
@@ -853,7 +802,7 @@ textarea:focus {
     cursor: pointer;
     position: relative;
     top: 6px;
-    z-index: 11;
+    z-index: 14;
     border: 1px solid transparent;
 }
 
@@ -861,7 +810,7 @@ textarea:focus {
     display: block;
     width: 27px;
     height: 2px;
-    background: #466896;
+    background: #444;
     margin: 0 auto 7px auto;
     -webkit-transition-property: transform, border, background;
     -webkit-transition-duration: .3s;
@@ -884,6 +833,10 @@ textarea:focus {
     transition-timing-function: ease;
 }
 
+.respmenubtn.white span {
+    background: #fff;
+}
+
 .respmenubtn span:last-child {
     margin: 0 auto;
 }
@@ -894,7 +847,11 @@ textarea:focus {
 }
 
 .respmenubtn:hover span {
-    background: #e9ba5f;
+    background: #444;
+}
+
+.respmenubtn:hover span {
+    background: #fff;
 }
 
 .respmenubtn.active span {
@@ -902,7 +859,7 @@ textarea:focus {
     width: 35px;
     top: 2px;
     left: 0;
-    background: #e9ba5f;
+    background: #444;
 }
 
 .respmenubtn.active span:last-child {
@@ -968,6 +925,10 @@ textarea:focus {
     border-bottom: 1px solid #151515;
 }
 
+.link_1_wrapp.resp {
+    display: none;
+}
+
 .inner_header .link_1 {
     color: #151515;
 }
@@ -999,6 +960,14 @@ textarea:focus {
 
 .inner_header .tel_link:hover span {
     color: #151515;
+}
+
+.resp_callback {
+    display: none;
+}
+
+#resp_nav {
+    display: none;
 }
 
 /*-------------------------------------------*/
@@ -1069,7 +1038,7 @@ textarea:focus {
     display: -webkit-flex;
     flex-direction: column;
     -webkit-flex-direction: column;
-    max-width: 1500px;
+    max-width: 1520px;
     min-height: 100vh;
     margin: 0 auto;
 }
@@ -1111,8 +1080,8 @@ textarea:focus {
 .main_nav li a .count {
     opacity: 0;
     position: absolute;
-    top: -17px;
-    right: -32px;
+    top: -19px;
+    right: -8px;
     font-weight: 500;
     font-size: 18px;
     line-height: 21px;
@@ -1336,9 +1305,9 @@ textarea:focus {
 }
 
 .person {
-    width: 410px;
+    width: 78%;
+    max-width: 410px;
     margin: 0 auto;
-    /*padding: 66px 0 20px 0;*/
 }
 
 .person .photo_box {
@@ -1348,9 +1317,18 @@ textarea:focus {
     overflow: hidden;
     border-radius: 50%;
     -webkit-border-radius: 50%;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-.person .img_box img {
+.person .photo_box img {
+    display: block;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -1391,7 +1369,6 @@ textarea:focus {
 /*-- Section 3 - Main Page --*/
 
 .sect_3 {
-    /*padding: 51px 0 20px 0;*/
     padding: 51px 0 72px 0;
 }
 
@@ -1435,7 +1412,8 @@ textarea:focus {
     height: 42px;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: auto;
+    /*background-size: auto;*/
+    background-size: contain;
     background-image: url(img/plus.svg);
     position: absolute;
     top: 50%;
@@ -1488,7 +1466,8 @@ textarea:focus {
   background-position: center 0;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100%;
+  /*height: 100%;*/
+  height: 640px;
 }
 
 .parallax .caption {

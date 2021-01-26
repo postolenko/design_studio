@@ -1,30 +1,934 @@
-@media only screen and (max-width: 1240px) {
+@media only screen and (max-width: 1800px) {
+
+	/*-- Header --*/
+
+	.header_site {
+	    padding: 24px 50px;
+	}
+
+	.logo p {
+		padding: 0;
+	    font-size: 15px;
+	    line-height: 24px;
+	}
+
+    .logo p.p_1 {
+    	padding: 0;
+	    font-size: 30px;
+	    line-height: 30px;
+	}
+
+	.contact_list li a {
+	    font-size: 15px;
+	    line-height: 19px;
+	}
+
+	.inlines {
+	    margin: 0 -20px;
+	}
+
+	.inlines > div {
+	    padding: 0 20px;
+	}
+
+	.link_1 {
+	    font-size: 15px;
+	    line-height: 15px;
+	}
+
+	.tel_link {
+	    font-size: 30px;
+	    line-height: 34px;
+	}
+
+	/*-- /Header --*/
+
+	/*-- Section 1 - Main Page --*/
+
+	.main_nav_wrapp {
+	    margin: 174px 180px 0 0;
+	}
+
+	.main_nav li {
+	    padding: 11px 0;
+	}
+
+	.main_nav li a {
+	    font-size: 27px;
+	}
+
+	.h1_wrapp {
+	    max-width: 1053px;
+	    margin-bottom: 113px;
+	    padding-left: 124px;
+	}
+
+	.h1_wrapp h1 {
+	    font-size: 50px;
+	    line-height: 66px;
+	}
+
+	/*-- /Section 1 - Main Page --*/
+
+	/*-- Section 2 - Main Page --*/
+
+	.person_descript {
+    	padding: 13% 0 0 0;
+	}
+
+	.person .photo_box {
+	    width: 240px;
+	    height: 240px;
+    	margin: 16% 0;
+	}
+
+	.person_title h3 {
+	    padding: 11px 0;
+	    font-size: 33px;
+	    line-height: 40px;
+	}
+
+	.person_title p {
+	    padding: 1px 0;
+	    font-size: 15px;
+	    line-height: 19px;
+	}
+
+	.person_descript p {
+	    font-size: 15px;
+	    line-height: 22px;
+	}
+
+	.categorie_thumb .descript h3 {
+		padding: 5px 0;
+	    font-size: 34px;
+	    line-height: 36px;
+	}
+
+	.categorie_thumb .descript p {
+	    padding: 5px 0;
+	    font-size: 15px;
+	    line-height: 18px;
+	}
+
+	/*-- /Section 2 - Main Page --*/
+
+	/*-- Section 3 - Main Page --*/
+
+	.h2_wrapp h2 {
+	    font-weight: normal;
+	    font-size: 50px;
+	    line-height: 60px;
+	}
+
+	.dropdown_box_title h3 {
+	    font-size: 34px;
+	    line-height: 38px;
+	}
+
+	/*-- /Section 3 - Main Page --*/
+
+	/*-- Section 4 - Main Page --*/
+
+	.parallax {
+	  height: 500px;
+	}
+
+	.parallax .caption {
+	    padding: 65px 35px;
+	}
+
+	/*-- /Section 4 - Main Page --*/
+
+	/*-- Footer --*/
+
+	.links_box > div {
+	    padding: 16px 35px;
+	}
+
+	.links_box a {
+	    font-size: 35px;
+	    line-height: 38px;
+	}
+
+	/*-- /Footer --*/
+
+}
+
+@media only screen and (max-width: 1400px) {
+
+.row_2 {
+	padding: 0 50px;
+}
+
+/*-- Header --*/
+
+.tel_link {
+    font-size: 26px;
+    line-height: 30px;
+}
+
+/*-- /Header --*/
+
+/*-- Section 1 - Main Page --*/
+
+.main_nav_wrapp {
+    margin: 140px 180px 0 0;
+}
+
+.h1_wrapp {
+    max-width: 880px;
+    margin-bottom: 97px;
+    padding-left: 124px;
+}
+
+.h1_wrapp h1 {
+    font-size: 41px;
+    line-height: 56px;
+}
+
+.main_nav li {
+    padding: 9px 0;
+}
+
+.main_nav li a {
+    font-size: 25px;
+}
+
+/*-- /Section 1 - Main Page --*/
+
+/*-- Section 2 - Main Page --*/
+
+.h2_wrapp h2 {
+    font-size: 44px;
+    line-height: 54px;
+}
+
+/*-- /Section 2 - Main Page --*/
+
+/*-- Footer --*/
+
+.corp_wrapp {
+    padding: 20px 0;
+}
+
+/*-- /Footer --*/
+
+}
 
 
+@media only screen and (max-width: 1124px) {
+
+.row_2 {
+    padding: 0 25px;
+}
+
+/*-- Header --*/
+
+.header_site {
+    padding: 20px 25px;
+}
+
+.header_site .left {
+    width: 33%;
+}
+
+.header_site .center {
+    width: 19%;
+}
+
+.header_site .right {
+    width: 48%;
+}
+
+.main_nav_wrapp {
+    margin: 120px 150px 0 0;
+}
+
+.tel_link {
+    font-size: 23px;
+    line-height: 27px;
+}
+
+/*-- /Header --*/
+
+/*-- Section 1 - Main Page --*/
+
+.main_nav_wrapp {
+    margin: 131px 160px 0 0;
+}
+
+.h1_wrapp {
+    max-width: 790px;
+	margin-bottom: 80px;
+    padding-left: 25px;
+}
+
+.h1_wrapp h1 {
+    font-size: 36px;
+    line-height: 53px;
+}
+
+.main_nav li {
+    padding: 7px 0;
+}
+
+.main_nav li a {
+    font-size: 22px;
+}
+
+/*-- /Section 1 - Main Page --*/
+
+/*-- Section 3 - Main Page --*/
+
+.dropdowns {
+    padding: 40px 0 0 0;
+}
+
+/*-- .Section 3 - Main Page --*/
+
+/*-- Footer --*/
+
+.links_box a {
+    font-size: 25px;
+    line-height: 25px;
+}
+
+/*-- /Footer --*/
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+/*-- Header --*/
+
+.tel_link {
+    font-size: 23px;
+    line-height: 27px;
+}
+
+/*-- /Header --*/
+
+/*-- Section 2 - Main Page --*/
+
+.person .photo_box {
+    width: 200px;
+    height: 200px;
+    margin: 5% 0;
+}
+
+.person_title h3 {
+    padding: 8px 0;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.person_descript {
+    padding: 5% 0 0 0;
+}
+
+/*-- /Section 2 - Main Page --*/
+
+/*-- Section 5 - Main Page --*/
+
+.two_cols_item h3 {
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.two_cols_item {
+    padding: 25px 0 17px 0;
+}
+
+.inlines_2 p a {
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.show_link_wrapp .add_link {
+    bottom: 6px;
+}
+
+.show_link_wrapp:hover {
+    padding-right: 140px;
+}
+
+/*-- /Section 5 - Main Page --*/
 
 }
 
 
 @media only screen and (max-width: 900px) {
 
+/*-- Header --*/
 
+.header_fix {
+	width: 100%;
+	z-index: 3;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.header_site {
+    padding: 15px 25px 10px 25px;
+}
+
+.header_row {
+	padding-right: 50px;
+}
+
+.header_site .center {
+    width: 0;
+    padding: 0;
+}
+
+.header_site .left {
+    width: 45%;
+}
+
+.header_site .right {
+    width: 55%;
+}
+
+.respmenubtn {
+	display: inline-block;
+	position: fixed;
+	top: 18px;
+    right: 5px;
+}
+
+.contact_list {
+	display: none;
+}
+
+.contact_list.resp {
+    display: block;
+}
+
+.link_1_wrapp {
+	display: none;
+}
+
+.link_1_wrapp.resp {
+    display: block;
+}
+
+.inlines {
+    margin: 7px 0;
+}
+
+.inlines > div {
+    padding: 0;
+}
+
+.main_nav_wrapp {
+	display: none;
+}
+
+#resp_nav {
+	/*display: block;*/
+	display: none;
+	width: 100%;
+	height: 100vh;
+	overflow-y: auto;
+	margin: 0;
+	padding: 60px 25px 50px 25px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 13;
+	background-color: #fff;
+}
+
+#resp_nav .main_nav li a {
+	color: #444;
+}
+
+#resp_nav .main_nav li a .count {
+	color: #444;
+}
+
+#resp_nav .contact_list {
+	margin: 0;
+}
+
+#resp_nav .contact_list li {
+    padding: 0;
+}
+
+#resp_nav .contact_list li a {
+	color: #444;
+}
+
+#resp_nav .contact_list li a:active,
+#resp_nav .contact_list li a.active {
+    border-bottom: 1px solid #444;
+}
+
+#resp_nav .contact_list li a:hover {
+    border-bottom: 1px solid #444;
+}
+
+#resp_nav a {
+	color: #444 !important;
+}
+
+#resp_nav .link_1:before {
+    background: #444
+}
+
+.header_fix.bg {
+    background-color: #fff;
+    -webkit-box-shadow: 0 3px 5px 0 rgba(0,0,0,.3);
+    -moz-box-shadow: 0 3px 5px 0 rgba(0,0,0,.3);
+    box-shadow: 0 3px 5px 0 rgba(0,0,0,.3);
+}
+
+.header_fix.bg .logo p {
+	color: #444 !important;
+}
+
+.respmenubtn.dark span {
+    background: #444;
+}
+
+.header_fix.bg .tel_link {
+    color: #444 !important;
+}
+
+.header_fix.bg .tel_link:hover span {
+    color: #444 ;
+}
+
+/*-- /Header --*/
+
+/*-- Section 1 - Main Pag --*/
+
+.row_1 {
+	flex-direction: unset;
+    -webkit-flex-direction: unset;
+    align-items: flex-end;
+    -webkit-align-items: flex-end;
+}
+
+/*-- /Section 1 - Main Pag --*/
+
+/*-- Section 2 - Main Page --*/
+
+.person .photo_box {
+    width: 180px;
+    height: 180px;
+}
+
+.person_title h3 {
+    padding: 8px 0;
+    font-size: 26px;
+    line-height: 31px;
+}
+
+.categorie_thumb .descript h3 {
+    padding: 2px 0;
+    font-size: 25px;
+    line-height: 29px;
+}
+
+/*-- .Section 2 - Main Page --*/
+
+/*-- Section 3 - Main Page --*/
+
+.h2_wrapp h2 {
+    font-size: 38px;
+    line-height: 45px;
+}
+
+.two_cols > div {
+    width: 50%;
+    padding: 0 30px;
+}
+
+.two_cols p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.dropdown {
+    padding: 25px 11px 4px 11px;
+}
+
+.dropdown_box_title h3 {
+    font-size: 29px;
+    line-height: 33px;
+}
+
+/*-- /Section 3 - Main Page --*/
+
+/*-- Section 4 - Main Page --*/
+
+.parallax {
+  height: 400px;
+}
+
+.parallax .caption {
+    padding: 40px 25px;
+}
+
+/*-- /Section 4 - Main Page --*/
+
+/*-- Section 5 - Main Page --*/
+
+.two_cols_item > div:nth-child(1),
+.two_cols_item > div:nth-child(2) {
+    width: 50%;
+}
+
+.two_cols_item h3 {
+    font-size: 25px;
+    line-height: 30px;
+}
+
+/*-- /Section 5 - Main Page --*/
 
 }
 
 @media only screen and (max-width: 767px) {
 
+/*-- Header --*/
 
+.header_site .left {
+    width: 50%;
+}
+
+.header_site .right {
+    width: 50%;
+}
+
+.logo p {
+    font-size: 13px;
+    line-height: 22px;
+}
+
+.logo p.p_1 {
+    font-size: 27px;
+    line-height: 28px;
+}
+
+/*-- /Header --*/
+
+/*-- Section 1 - Main Pag --*/
+
+.h1_wrapp {
+    padding: 0 25px;
+}
+
+.h1_wrapp h1 {
+    font-size: 30px;
+    line-height: 42px;
+}
+
+/*-- /Section 1 - Main Pag --*/
+
+/*-- Section 2 - Main Page --*/
+
+.person .photo_box {
+    width: 120px;
+    height: 120px;
+}
+
+.person_title h3 {
+    padding: 5px 0;
+    font-size: 23px;
+    line-height: 27px;
+}
+
+/*-- .Section 2 - Main Page --*/
+
+/*-- Section 3 - Main Page --*/
+
+.two_cols {
+	display: block;
+}
+
+.two_cols > div {
+    width: 100%;
+    padding: 0;
+}
+
+.dropdowns {
+    padding: 20px 0 0 0;
+}
+
+.dropdown_box {
+    margin-bottom: 0;
+}
+
+.dropdown_box_title {
+    border-bottom: 2px solid #444444;
+}
+
+.dropdown_box_title h3 {
+    font-size: 22px;
+    line-height: 29px;
+}
+
+/*-- /Section 3 - Main Page --*/
+
+/*-- Section 4 - Main Page --*/
+
+.parallax {
+  height: 350px;
+}
+
+/*-- /Section 4 - Main Page --*/
+
+/*-- Section 5 - Main Pag --*/
+
+.two_cols_2 {
+    margin: 18px auto;
+}
+
+.two_cols_2 > .col:nth-child(1),
+.two_cols_2 > .col:nth-child(2) {
+    width: 100%;
+    padding: 5px 0;
+}
+
+.two_cols_item {
+    border-bottom: 2px solid #444444;
+}
+
+.two_cols_item h3 {
+    font-size: 22px;
+    line-height: 25px;
+}
+
+.inlines_2 p a {
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.show_link_wrapp .add_link {
+    bottom: 7px;
+}
+
+/*-- /Section 5 - Main Pag --*/
+
+/*-- Footer --*/
+
+.footer_section {
+    padding: 50px 0 17px 0;
+}
+
+.links_box > div {
+    border-bottom: 2px solid #444444;
+}
+
+/*-- /Footer --*/
 
 }
 
 @media only screen and (max-width: 600px) {
 
+/*-- Header --*/
 
+.tel_link {
+    font-size: 18px;
+    line-height: 20px;
+}
+
+/*-- /Header --*/
+
+/*-- Section 1 - Main Page --*/
+
+.h1_wrapp {
+    margin-bottom: 60px;
+}
+
+.h1_wrapp h1 {
+    font-size: 25px;
+    line-height: 33px;
+}
+
+/*-- /Section 1 - Main Page --*/
+
+/*-- Section 2 - Main Page --*/
+
+.person_title h3 {
+    padding: 5px 0;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.person_descript p {
+    font-size: 13px;
+    line-height: 16px;
+}
+
+/*-- /Section 2 - Main Page --*/
+
+/*-- Section 3 - Main Page --*/
+
+.sect_3 {
+    padding: 30px 0 50px 0;
+}
+
+.h2_wrapp h2 {
+    font-size: 32px;
+    line-height: 36px;
+}
+
+.dropdown_box_title:before {
+    width: 33px;
+    height: 33px;
+}
+
+/*-- /Section 3 - Main Page --*/
+
+/*-- Section 4 - Main Page --*/
+
+.parallax {
+  height: 350px;
+}
+
+/*-- /Section 4 - Main Page --*/
+
+/*-- Section 5 - Main Page --*/
+
+.two_cols_item {
+	display: block;
+	padding: 25px 0 10px 0;
+}
+
+.two_cols_item > div:nth-child(1),
+.two_cols_item > div:nth-child(2) {
+    width: 100%;
+}
+
+.two_cols_item > div:nth-child(2) {
+	padding-top: 5px;
+}
+
+/*-- /Section 5 - Main Page --*/
+
+/*-- Footer --*/
+
+.footer_section {
+    padding: 40px 0 10px 0;
+}
+
+.links_box > div {
+    padding: 10px 15px;
+}
+
+.links_box a {
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.corp {
+    font-size: 16px;
+    line-height: 16px;
+}
+
+/*-- /Footer --*/
 
 }
 
 
 @media only screen and (max-width: 480px) {
 
+.row {
+    padding: 0 10px;
+}
+
+.row_2 {
+    padding: 0 10px;
+}
+
+.h2_wrapp h2 {
+    font-size: 29px;
+    line-height: 32px;
+}
+
+/*-- Header --*/
+
+.novisible_480 {
+	display: none;
+}
+
+.header_site {
+    padding: 6px 10px;
+}
+
+.header_site .left {
+	width: calc(100% - 50px);
+}
+
+.header_site .right {
+	width: 50px;
+	text-align: right;
+}
+
+.respmenubtn {
+    top: 10px;
+}
+
+.resp_callback {
+    /*display: block;*/
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    border: 1px solid #444;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    background-color: #fff;
+    background-image: url(img/phone.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px;
+    position: relative;
+    top: 5px;
+}
+
+/*-- Header --*/
+
+/*-- Section 1 - Main Page --*/
+
+.h1_wrapp {
+    padding: 0 10px;
+}
+
+/*-- /Section 1 - Main Page --*/
+
+/*-- Section 2 - Main Page --*/
+
+.categorie_thumb {
+    width: 100%;
+    height: 300px;
+}
+
+/*-- /Section 2 - Main Page --*/
+
+/*-- Section 3 - Main Page --*/
+
+.dropdown_box_title h3 {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.two_cols p {
+    font-size: 15px;
+    line-height: 23px;
+}
+
+/*-- /Section 3 - Main Page --*/
+
+/*-- Section 4 - Main Page --*/
+
+.parallax .caption {
+    padding: 30px 10px;
+}
+
+/*-- /Section 4 - Main Page --*/
 	
 }
