@@ -364,7 +364,7 @@
 
 .header_fix {
 	width: 100%;
-	z-index: 3;
+	/*z-index: 3;*/
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -441,7 +441,16 @@
 	background-color: #fff;
 }
 
+#resp_nav .main_nav {
+    margin: 30px 0;
+}
+
+#resp_nav .main_nav li {
+    padding: 10px 0;
+}
+
 #resp_nav .main_nav li a {
+    font-size: 30px;
 	color: #444;
 }
 
@@ -478,6 +487,20 @@
     background: #444
 }
 
+#resp_nav .contact_list li {
+    padding: 5px 0;
+}
+
+#resp_nav .contact_list li a {
+    font-size: 19px;
+    line-height: 22px;
+}
+
+#resp_nav .link_1 {
+    font-size: 19px;
+    line-height: 20px;
+}
+
 .header_fix.bg {
     background-color: #fff;
     -webkit-box-shadow: 0 3px 5px 0 rgba(0,0,0,.3);
@@ -490,6 +513,10 @@
 }
 
 .respmenubtn.dark span {
+    background: #444;
+}
+
+.respmenubtn.dark:hover span {
     background: #444;
 }
 
@@ -565,12 +592,19 @@
 
 /*-- Section 4 - Main Page --*/
 
-.parallax {
+/*.parallax {
   height: 400px;
-}
+}*/
 
 .parallax .caption {
     padding: 40px 25px;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+    text-align: center;
 }
 
 /*-- /Section 4 - Main Page --*/
@@ -675,9 +709,11 @@
 
 /*-- Section 4 - Main Page --*/
 
-.parallax {
+/*.parallax {
   height: 350px;
-}
+}*/
+
+
 
 /*-- /Section 4 - Main Page --*/
 
@@ -727,6 +763,34 @@
 
 }
 
+@media only screen and (max-width: 670px) {
+
+/*-- Section 2 - Main Page --*/
+
+.person .photo_box {
+    width: 90px;
+    height: 90px;
+}
+
+.person_title h3 {
+    padding: 3px 0;
+    font-size: 20px;
+    line-height: 22px;
+}
+
+.person_descript {
+    padding: 3% 0 0 0;
+}
+
+.person_descript p {
+    font-size: 13px;
+    line-height: 19px;
+}
+
+/*-- /Section 2 - Main Page --*/
+
+}
+
 @media only screen and (max-width: 600px) {
 
 /*-- Header --*/
@@ -740,23 +804,33 @@
 
 /*-- Section 1 - Main Page --*/
 
+.row_1 {
+    align-items: center;
+    -webkit-align-items: center;
+}
+
 .h1_wrapp {
-    margin-bottom: 60px;
+    margin-bottom: 0;
 }
 
 .h1_wrapp h1 {
-    font-size: 25px;
-    line-height: 33px;
+    font-size: 34px;
+    line-height: 47px;
+    text-align: center;
 }
 
 /*-- /Section 1 - Main Page --*/
 
 /*-- Section 2 - Main Page --*/
 
+.person .photo_box {
+    margin-bottom: 0;
+}
+
 .person_title h3 {
-    padding: 5px 0;
-    font-size: 20px;
-    line-height: 24px;
+    padding: 2px 0;
+    font-size: 18px;
+    line-height: 19px;
 }
 
 .person_descript p {
@@ -786,9 +860,9 @@
 
 /*-- Section 4 - Main Page --*/
 
-.parallax {
+/*.parallax {
   height: 350px;
-}
+}*/
 
 /*-- /Section 4 - Main Page --*/
 
@@ -796,7 +870,7 @@
 
 .two_cols_item {
 	display: block;
-	padding: 25px 0 10px 0;
+	padding: 35px 0 10px 0;
 }
 
 .two_cols_item > div:nth-child(1),
@@ -805,7 +879,16 @@
 }
 
 .two_cols_item > div:nth-child(2) {
-	padding-top: 5px;
+	padding-top: 0;
+}
+
+.show_link_wrapp {
+    top: 4px;
+    line-height: 23px;
+}
+
+.show_link_wrapp .add_link {
+    bottom: 3px;
 }
 
 /*-- /Section 5 - Main Page --*/
@@ -904,7 +987,32 @@
 
 .categorie_thumb {
     width: 100%;
-    height: 300px;
+}
+
+.person_thumb {
+    height: auto !important;
+}
+
+.person {
+    width: 87%;
+    max-width: 353px;
+}
+
+.person .photo_box {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 15px;
+}
+
+.person_title h3 {
+    padding: 8px 0;
+    font-size: 26px;
+    line-height: 33px;
+}
+
+.person_descript p {
+    font-size: 16px;
+    line-height: 21px;
 }
 
 /*-- /Section 2 - Main Page --*/
