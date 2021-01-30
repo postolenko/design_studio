@@ -140,6 +140,92 @@
 
 	/*-- /Section 4 - Main Page --*/
 
+    /*-- Section 1 - Flats Page --*/
+
+    .two_cols_3 {
+        margin: 21px 0 5px 0;
+        padding-left: 112px;
+    }
+
+    .two_cols_2 p {
+        padding: 10px 0;
+        font-size: 15px;
+        line-height: 19px;
+    }
+
+    .two_cols_2.two_cols_2_2 > .col:nth-child(1) {
+        width: 35%;
+        padding: 5px 40px 5px 0;
+    }
+
+    .two_cols_2.two_cols_2_2 > .col:nth-child(2) {
+        width: 65%;
+        padding: 5px 13% 5px 20px;
+    }
+
+    .main_nav_wrapp_2 {
+        margin-top: 0;
+    }
+
+    /*-- /Section 1 - Flats Page --*/
+
+    /*-- Section 2 - Flats Page --*/
+
+    .objects_thumbs {
+        margin: 0 0 23px 0;
+    }
+
+    .object_thumb .descript {
+        min-height: 100px;
+        padding: 10px 18% 37px 18%;
+    }
+
+    .object_thumb p {
+        font-size: 21px;
+        line-height: 26px;
+    }
+
+    /*-- /Section 2 - Flats Page --*/
+
+    /*-- Section 1 - Object Page --*/
+
+    .object_slider_wrapp {
+        margin-top: 31px;
+        padding: 0 50px;
+    }
+
+    .object_slider .slide {
+        height: 650px;
+    }
+
+    .object_slider_dots {
+        padding: 0 167px;
+    }
+
+    .object_slider_controls .slick-arrow {
+        margin-top: 7px;
+    }
+
+    .object_slider_controls {
+        padding: 39px 0 33px 0;
+    }
+
+    .slick-arrow {
+        width: 120px;
+        height: 26px;
+        background-size: contain;
+    }
+
+    /*-- /Section 1 - Object Page --*/
+
+    /*-- Section 3 - Flats Page --*/
+
+    .sect_3_f_p {
+        padding: 55px 0 0 0;
+    }
+
+    /*-- /Section 3 - Flats Page --*/
+
 	/*-- Footer --*/
 
 	.links_box > div {
@@ -206,6 +292,14 @@
 
 /*-- /Section 2 - Main Page --*/
 
+/*-- Section 1 - Flats Page --*/
+
+.main_nav_wrapp_2 {
+    margin: 0 122px 0 0;
+}
+
+/*-- /Section 1 - Flats Page --*/
+
 /*-- Footer --*/
 
 .corp_wrapp {
@@ -213,6 +307,56 @@
 }
 
 /*-- /Footer --*/
+
+}
+
+@media only screen and (max-width: 1240px) {
+
+/*-- Section 2 - Main Page --*/
+
+.person .photo_box {
+    margin: 7% 0;
+}
+
+.person_descript {
+    padding: 8% 0 0 0;
+}
+
+/*-- /Section 2 - Main Page --*/
+
+/*-- Section 2 - Flats Page --*/
+
+.object_thumb .descript {
+    min-height: 80px;
+    padding: 8px 18% 28px 18%;
+}
+
+.object_thumb p {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+/*-- /Section 2 - Flats Page --*/
+
+/*-- Section 3 - Flats Page --*/
+
+.sect_3_f_p {
+    padding: 35px 0 0 0;
+}
+
+/*-- /Section 3 - Flats Page --*/
+
+/*-- Section 1 - Object Page --*/
+
+.object_slider .slide {
+    height: 500px;
+}
+
+.object_slider_dots {
+    padding: 0 120px;
+}
+
+/*-- /Section 1 - Object Page --*/
 
 }
 
@@ -287,6 +431,54 @@
 
 /*-- .Section 3 - Main Page --*/
 
+/*-- Section 1 - Flats Page --*/
+
+.two_cols_3 {
+    margin: 0 0 5px 0;
+    padding-left: 70px;
+}
+
+.two_cols_3 .two_cols_2 {
+    margin-top: 43px;
+}
+
+.two_cols_2.two_cols_2_2 > .col:nth-child(1) {
+    width: 42%;
+    padding: 5px 30px 5px 0;
+}
+
+.two_cols_2.two_cols_2_2 > .col:nth-child(2) {
+    width: 58%;
+    padding: 5px 5% 5px 20px;
+}
+
+.main_nav_wrapp_2 {
+    margin: 0 110px 0 0;
+}
+
+/*-- /Section 1 - Flats Page --*/
+
+/*-- Section 1 - Object Page --*/
+
+.object_slider_wrapp {
+    margin-top: 10px;
+    padding: 0 25px;
+}
+
+.object_slider_dots {
+    padding: 0 90px;
+}
+
+.object_slider_controls {
+    padding: 25px 0 10px 0;
+}
+
+.slick-arrow {
+    width: 90px;
+}
+
+/*-- /Section 1 - Object Page --*/
+
 /*-- Footer --*/
 
 .links_box a {
@@ -355,16 +547,40 @@
 
 /*-- /Section 5 - Main Page --*/
 
+/*-- Section 1 - Flats Page --*/
+
+.two_cols_3 > .col:nth-child(1) {
+    width: calc(100% - 200px);
+}
+
+.two_cols_3 > .col:nth-child(2) {
+    width: 200px;
+}
+
+/*-- /Section 1 - Flats Page --*/
+
+/*-- Section 1 - Object Page --*/
+
+.object_promo {
+    padding: 100px 0 0 0;
+}
+
+/*-- /Section 1 - Object Page --*/
+
 }
 
 
 @media only screen and (max-width: 900px) {
 
+.wrapper.inner {
+    padding-top: 100px;
+}
+
 /*-- Header --*/
 
-.header_fix {
+.header_fix,
+.header_fix.inner {
 	width: 100%;
-	/*z-index: 3;*/
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -623,9 +839,64 @@
 
 /*-- /Section 5 - Main Page --*/
 
+/*-- Section 1 - Flats Page --*/
+
+.row_4 {
+    padding: 0 25px;
+}
+
+.two_cols_3 {
+    padding-left: 0;
+}
+
+.two_cols_3 > .col:nth-child(1) {
+    width: 100%;
+}
+
+.two_cols_3 > .col:nth-child(2) {
+    display: none;
+}
+
+.two_cols_3 .two_cols_2 {
+    margin-top: 15px;
+}
+
+.two_cols_2.two_cols_2_2 > .col:nth-child(2) {
+    width: 58%;
+    padding-right: 0;
+}
+
+/*-- /Section 1 - Flats Page --*/
+
+/*-- Section 2 - Flats Page --*/
+
+.object_thumb .descript {
+    min-height: 65px;
+    padding: 8px 10% 18px 10%;
+}
+
+/*-- /Section 2 - Flats Page --*/
+
+/*-- Section 1 - Object Page --*/
+
+.object_promo {
+    padding: 10px 0 0 0;
+}
+
+.object_promo_title h2 {
+    font-size: 36px;
+    line-height: 44px;
+}
+
+/*-- /Section 1 - Object Page --*/
+
 }
 
 @media only screen and (max-width: 767px) {
+
+.wrapper.inner {
+    padding-top: 78px;
+}
 
 /*-- Header --*/
 
@@ -749,6 +1020,50 @@
 
 /*-- /Section 5 - Main Pag --*/
 
+/*-- Section 1 - Flats Page --*/
+
+.two_cols_3 .two_cols_2 {
+    margin-top: 0;
+}
+
+.two_cols_2.two_cols_2_2 > .col:nth-child(1),
+.two_cols_2.two_cols_2_2 > .col:nth-child(2) {
+    width: 100%;
+    padding: 5px 0;
+}
+
+/*-- /Section 1 - Flats Page --*/
+
+/*-- Section 2 - Flats Page --*/
+
+.object_thumb p {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+/*-- /Section 2 - Flats Page --*/
+
+/*-- Section 1 - Object Page --*/
+
+.object_promo_title {
+    border-bottom: 2px solid #444444;
+    padding: 10px 0;
+}
+
+.object_slider_dots {
+    padding: 0 60px;
+}
+
+.object_slider .slide {
+    height: 380px;
+}
+
+.object_slider_controls {
+    padding: 15px 0 10px 0;
+}
+
+/*-- /Section 1 - Object Page --*/
+
 /*-- Footer --*/
 
 .footer_section {
@@ -788,6 +1103,14 @@
 }
 
 /*-- /Section 2 - Main Page --*/
+
+/*-- Section 2 - Flats Page --*/
+
+.object_thumb {
+    width: calc(50% - 12px);
+}
+
+/*-- /Section 2 - Flats Page --*/
 
 }
 
@@ -892,6 +1215,15 @@
 }
 
 /*-- /Section 5 - Main Page --*/
+
+/*-- Section 1 - Object Page --*/
+
+.object_promo_title h2 {
+    font-size: 30px;
+    line-height: 38px;
+}
+
+/*-- /Section 1 - Object Page --*/
 
 /*-- Footer --*/
 
@@ -1038,5 +1370,54 @@
 }
 
 /*-- /Section 4 - Main Page --*/
+
+/*-- Section 2 - Flats Page --*/
+
+.object_thumb {
+    width: 100%;
+    height: calc(100vw/1.5 - 12px);
+}
+
+.object_thumb p {
+    font-size: 16px;
+    line-height: 23px;
+}
+
+/*-- /Section 2 - Flats Page --*/
+
+/*-- Section 1 - Object Page --*/
+
+.object_slider_wrapp {
+    padding: 0 10px;
+}
+
+.object_slider .slide {
+    height: 310px;
+}
+
+.object_slider_controls {
+    position: relative;
+    top: -56px;
+}
+
+.object_slider_controls .slick-arrow {
+    position: absolute;
+    top: 57px;
+    z-index: 2;
+}
+
+.object_slider_dots {
+    padding: 0;
+}
+
+.object_slider_controls .slick-prev {
+    left: 0;
+}
+
+.object_slider_controls .slick-next {
+    right: 0;
+}
+
+/*-- /Section 1 - Object Page --*/
 	
 }

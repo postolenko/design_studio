@@ -945,7 +945,7 @@ textarea:focus {
     color: #151515;
 }
 
-.inner_header .tel_link:link,
+/*.inner_header .tel_link:link,
 .inner_header .tel_link:visited {
     text-shadow: 0 4px 15px rgba(68, 68, 68, 0);
     -webkit-text-shadow: 0 4px 15px rgba(68, 68, 68, 0);
@@ -960,7 +960,7 @@ textarea:focus {
 .inner_header .tel_link:hover {
     text-shadow: 0 4px 15px rgba(68, 68, 68, .3);
     -webkit-text-shadow: 0 4px 15px rgba(68, 68, 68, .3);
-}
+}*/
 
 .inner_header .tel_link:hover span {
     color: #151515;
@@ -972,6 +972,10 @@ textarea:focus {
 
 #resp_nav {
     display: none;
+}
+
+.header_fix.inner {
+    position: relative;
 }
 
 /*-------------------------------------------*/

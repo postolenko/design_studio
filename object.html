@@ -10,16 +10,15 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="icon" type="image/png" href="favicon/favicon.ico" sizes="16x16">	
 	<title>KDesign - Студия дизайна интерьеров</title>
-	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </head>
 
 <body>
 
-	<div class="wrapper">
+	<div class="wrapper inner">
 
-	<!-- Header -->
+<!-- Header -->
 		
-	<header>
+	<header class="header_fix">
 		<div class="header_row inner_header">
 			<div class="header_site">
 				<div class="left">
@@ -36,25 +35,43 @@
 					</ul>
 				</div>
 				<div class="right">
-					<div class="inlines animate fadeIn">
-						<div>
-							<a class="link_1" href="mailto:kdesign@mail.ru">kdesign@mail.ru</a>
-						</div>
-						<div>
-							<a class="tel_link" href="tel:+79104342424"><span>+7 (910)</span> 434-24-24</a>
+					<div class="overflow_wrapp novisible_480">
+						<div class="inlines animate fadeIn">
+							<div class="link_1_wrapp">
+								<a class="link_1" href="mailto:kdesign@mail.ru">kdesign@mail.ru</a>
+							</div>
+							<div>
+								<a class="tel_link" href="tel:+79104342424"><span>+7 (910)</span> 434-24-24</a>
+							</div>
 						</div>
 					</div>
+					<a href="tel:+79104342424" class="resp_callback"></a>
 				</div>
 			</div>
-			<button class="respmenubtn">
-				<span></span>
-				<span></span>
-				<span></span>
-			</button>
 		</div>
 	</header>
 
 	<!-- /Header -->
+
+	<div id="resp_nav">
+		<ul class="main_nav">
+			<li><a href="#">Квартиры<span class="count">14</span></a></li>
+			<li><a href="#">Дома<span class="count">11</span></a></li>
+			<li><a href="#">Офисы<span class="count">14</span></a></li>
+		</ul>
+		<ul class="contact_list resp animate fadeIn">
+			<li><a href="#">Контакты</a></li>
+		</ul>
+		<div class="link_1_wrapp resp">
+			<a class="link_1" href="mailto:kdesign@mail.ru">kdesign@mail.ru</a>
+		</div>
+	</div>
+
+	<button class="respmenubtn">
+		<span></span>
+		<span></span>
+		<span></span>
+	</button>
 
 	<!-- Content -->
 		<div class="content">
